@@ -1,0 +1,223 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Checklists\**" />
+    <Compile Remove="Entities\Establishments\**" />
+    <Compile Remove="Entities\Licenses\**" />
+    <Compile Remove="Entities\Violations\**" />
+    <Compile Remove="Entities\VisitReport\**" />
+    <Compile Remove="Models\Mobile\**" />
+    <Compile Remove="Models\Web\**" />
+    <Compile Remove="Repositories\Actions\**" />
+    <Compile Remove="Repositories\Agencies\**" />
+    <Compile Remove="Repositories\AgencyNotices\**" />
+    <Compile Remove="Repositories\AgreedActions\**" />
+    <Compile Remove="Repositories\ChecklistGroupResults\**" />
+    <Compile Remove="Repositories\ChecklistItemActions\**" />
+    <Compile Remove="Repositories\ChecklistItemGroups\**" />
+    <Compile Remove="Repositories\ChecklistItemResults\**" />
+    <Compile Remove="Repositories\ChecklistItems\**" />
+    <Compile Remove="Repositories\Cities\**" />
+    <Compile Remove="Repositories\Escalation\**" />
+    <Compile Remove="Repositories\Establishments\**" />
+    <Compile Remove="Repositories\EstablishmentTypes\**" />
+    <Compile Remove="Repositories\EstTypeInspectionRCVisits\**" />
+    <Compile Remove="Repositories\EstTypeRiskClassifications\**" />
+    <Compile Remove="Repositories\Experiences\**" />
+    <Compile Remove="Repositories\ExternalAgencies\**" />
+    <Compile Remove="Repositories\Fines\**" />
+    <Compile Remove="Repositories\Holidays\**" />
+    <Compile Remove="Repositories\InspectionAssignments\**" />
+    <Compile Remove="Repositories\InspectionReports\**" />
+    <Compile Remove="Repositories\InspectionRequests\**" />
+    <Compile Remove="Repositories\InspectionRiskClassifications\**" />
+    <Compile Remove="Repositories\InspectionSubTypes\**" />
+    <Compile Remove="Repositories\Inspections\**" />
+    <Compile Remove="Repositories\InspectionTimeLogs\**" />
+    <Compile Remove="Repositories\InspectionTypes\**" />
+    <Compile Remove="Repositories\InspectionVisitNotes\**" />
+    <Compile Remove="Repositories\InspectionVisitReportClaims\**" />
+    <Compile Remove="Repositories\InspectionVisitResult\**" />
+    <Compile Remove="Repositories\LegalForms\**" />
+    <Compile Remove="Repositories\LicenseActivities\**" />
+    <Compile Remove="Repositories\LicenseClasses\**" />
+    <Compile Remove="Repositories\LicenseStatuses\**" />
+    <Compile Remove="Repositories\LicenseTypes\**" />
+    <Compile Remove="Repositories\ResponsibleAgencies\**" />
+    <Compile Remove="Repositories\ReviewResults\**" />
+    <Compile Remove="Repositories\Sectors\**" />
+    <Compile Remove="Repositories\SystemFiles\**" />
+    <Compile Remove="Repositories\UserInspectionVisits\**" />
+    <EmbeddedResource Remove="Entities\Checklists\**" />
+    <EmbeddedResource Remove="Entities\Establishments\**" />
+    <EmbeddedResource Remove="Entities\Licenses\**" />
+    <EmbeddedResource Remove="Entities\Violations\**" />
+    <EmbeddedResource Remove="Entities\VisitReport\**" />
+    <EmbeddedResource Remove="Models\Mobile\**" />
+    <EmbeddedResource Remove="Models\Web\**" />
+    <EmbeddedResource Remove="Repositories\Actions\**" />
+    <EmbeddedResource Remove="Repositories\Agencies\**" />
+    <EmbeddedResource Remove="Repositories\AgencyNotices\**" />
+    <EmbeddedResource Remove="Repositories\AgreedActions\**" />
+    <EmbeddedResource Remove="Repositories\ChecklistGroupResults\**" />
+    <EmbeddedResource Remove="Repositories\ChecklistItemActions\**" />
+    <EmbeddedResource Remove="Repositories\ChecklistItemGroups\**" />
+    <EmbeddedResource Remove="Repositories\ChecklistItemResults\**" />
+    <EmbeddedResource Remove="Repositories\ChecklistItems\**" />
+    <EmbeddedResource Remove="Repositories\Cities\**" />
+    <EmbeddedResource Remove="Repositories\Escalation\**" />
+    <EmbeddedResource Remove="Repositories\Establishments\**" />
+    <EmbeddedResource Remove="Repositories\EstablishmentTypes\**" />
+    <EmbeddedResource Remove="Repositories\EstTypeInspectionRCVisits\**" />
+    <EmbeddedResource Remove="Repositories\EstTypeRiskClassifications\**" />
+    <EmbeddedResource Remove="Repositories\Experiences\**" />
+    <EmbeddedResource Remove="Repositories\ExternalAgencies\**" />
+    <EmbeddedResource Remove="Repositories\Fines\**" />
+    <EmbeddedResource Remove="Repositories\Holidays\**" />
+    <EmbeddedResource Remove="Repositories\InspectionAssignments\**" />
+    <EmbeddedResource Remove="Repositories\InspectionReports\**" />
+    <EmbeddedResource Remove="Repositories\InspectionRequests\**" />
+    <EmbeddedResource Remove="Repositories\InspectionRiskClassifications\**" />
+    <EmbeddedResource Remove="Repositories\InspectionSubTypes\**" />
+    <EmbeddedResource Remove="Repositories\Inspections\**" />
+    <EmbeddedResource Remove="Repositories\InspectionTimeLogs\**" />
+    <EmbeddedResource Remove="Repositories\InspectionTypes\**" />
+    <EmbeddedResource Remove="Repositories\InspectionVisitNotes\**" />
+    <EmbeddedResource Remove="Repositories\InspectionVisitReportClaims\**" />
+    <EmbeddedResource Remove="Repositories\InspectionVisitResult\**" />
+    <EmbeddedResource Remove="Repositories\LegalForms\**" />
+    <EmbeddedResource Remove="Repositories\LicenseActivities\**" />
+    <EmbeddedResource Remove="Repositories\LicenseClasses\**" />
+    <EmbeddedResource Remove="Repositories\LicenseStatuses\**" />
+    <EmbeddedResource Remove="Repositories\LicenseTypes\**" />
+    <EmbeddedResource Remove="Repositories\ResponsibleAgencies\**" />
+    <EmbeddedResource Remove="Repositories\ReviewResults\**" />
+    <EmbeddedResource Remove="Repositories\Sectors\**" />
+    <EmbeddedResource Remove="Repositories\SystemFiles\**" />
+    <EmbeddedResource Remove="Repositories\UserInspectionVisits\**" />
+    <None Remove="Entities\Checklists\**" />
+    <None Remove="Entities\Establishments\**" />
+    <None Remove="Entities\Licenses\**" />
+    <None Remove="Entities\Violations\**" />
+    <None Remove="Entities\VisitReport\**" />
+    <None Remove="Models\Mobile\**" />
+    <None Remove="Models\Web\**" />
+    <None Remove="Repositories\Actions\**" />
+    <None Remove="Repositories\Agencies\**" />
+    <None Remove="Repositories\AgencyNotices\**" />
+    <None Remove="Repositories\AgreedActions\**" />
+    <None Remove="Repositories\ChecklistGroupResults\**" />
+    <None Remove="Repositories\ChecklistItemActions\**" />
+    <None Remove="Repositories\ChecklistItemGroups\**" />
+    <None Remove="Repositories\ChecklistItemResults\**" />
+    <None Remove="Repositories\ChecklistItems\**" />
+    <None Remove="Repositories\Cities\**" />
+    <None Remove="Repositories\Escalation\**" />
+    <None Remove="Repositories\Establishments\**" />
+    <None Remove="Repositories\EstablishmentTypes\**" />
+    <None Remove="Repositories\EstTypeInspectionRCVisits\**" />
+    <None Remove="Repositories\EstTypeRiskClassifications\**" />
+    <None Remove="Repositories\Experiences\**" />
+    <None Remove="Repositories\ExternalAgencies\**" />
+    <None Remove="Repositories\Fines\**" />
+    <None Remove="Repositories\Holidays\**" />
+    <None Remove="Repositories\InspectionAssignments\**" />
+    <None Remove="Repositories\InspectionReports\**" />
+    <None Remove="Repositories\InspectionRequests\**" />
+    <None Remove="Repositories\InspectionRiskClassifications\**" />
+    <None Remove="Repositories\InspectionSubTypes\**" />
+    <None Remove="Repositories\Inspections\**" />
+    <None Remove="Repositories\InspectionTimeLogs\**" />
+    <None Remove="Repositories\InspectionTypes\**" />
+    <None Remove="Repositories\InspectionVisitNotes\**" />
+    <None Remove="Repositories\InspectionVisitReportClaims\**" />
+    <None Remove="Repositories\InspectionVisitResult\**" />
+    <None Remove="Repositories\LegalForms\**" />
+    <None Remove="Repositories\LicenseActivities\**" />
+    <None Remove="Repositories\LicenseClasses\**" />
+    <None Remove="Repositories\LicenseStatuses\**" />
+    <None Remove="Repositories\LicenseTypes\**" />
+    <None Remove="Repositories\ResponsibleAgencies\**" />
+    <None Remove="Repositories\ReviewResults\**" />
+    <None Remove="Repositories\Sectors\**" />
+    <None Remove="Repositories\SystemFiles\**" />
+    <None Remove="Repositories\UserInspectionVisits\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Agency.cs" />
+    <Compile Remove="Entities\CheckListItemEscalationPeriod.cs" />
+    <Compile Remove="Entities\City.cs" />
+    <Compile Remove="Entities\Enums.cs" />
+    <Compile Remove="Entities\EscalationResetPeriod.cs" />
+    <Compile Remove="Entities\ExternalAgency.cs" />
+    <Compile Remove="Entities\Inspection.cs" />
+    <Compile Remove="Entities\InspectionAssignment.cs" />
+    <Compile Remove="Entities\InspectionRequest.cs" />
+    <Compile Remove="Entities\InspectionRiskClassification.cs" />
+    <Compile Remove="Entities\InspectionSubType.cs" />
+    <Compile Remove="Entities\InspectionTimeLog.cs" />
+    <Compile Remove="Entities\InspectionType.cs" />
+    <Compile Remove="Entities\LegalForm.cs" />
+    <Compile Remove="Entities\LicenseActivity.cs" />
+    <Compile Remove="Entities\LicenseStatus.cs" />
+    <Compile Remove="Entities\PublicHoliday.cs" />
+    <Compile Remove="Entities\ResponsibleAgency.cs" />
+    <Compile Remove="Entities\Sector.cs" />
+    <Compile Remove="Entities\SystemFile.cs" />
+    <Compile Remove="Entities\UserHoliday.cs" />
+    <Compile Remove="Mappings\ChecklistItemActionTakenProfile.cs" />
+    <Compile Remove="Mappings\EstablishmentLicenseActivityProfile.cs" />
+    <Compile Remove="Mappings\EstablishmentProfile.cs" />
+    <Compile Remove="Mappings\EstablishmentTypeProfile.cs" />
+    <Compile Remove="Mappings\HolidayProfile.cs" />
+    <Compile Remove="Mappings\InspectionProfile.cs" />
+    <Compile Remove="Mappings\InspectionRequestProfile.cs" />
+    <Compile Remove="Mappings\InspectionSubTypeProfile.cs" />
+    <Compile Remove="Mappings\InspectionTypeProfile.cs" />
+    <Compile Remove="Mappings\LegalFormProfile.cs" />
+    <Compile Remove="Mappings\LicenseClassProfile.cs" />
+    <Compile Remove="Mappings\LicenseStatusProfile.cs" />
+    <Compile Remove="Mappings\LicenseTypeProfile.cs" />
+    <Compile Remove="Mappings\SectorProfile.cs" />
+    <Compile Remove="Models\ChecklistItemActionTakenModel.cs" />
+    <Compile Remove="Models\CityModel.cs" />
+    <Compile Remove="Models\DashboardMapModel.cs" />
+    <Compile Remove="Models\DashboardModel.cs" />
+    <Compile Remove="Models\EstablishmentLicenseActivityModel.cs" />
+    <Compile Remove="Models\EstablishmentModel.cs" />
+    <Compile Remove="Models\EstablishmentTypeModel.cs" />
+    <Compile Remove="Models\EstTypeRiskClassificationModel.cs" />
+    <Compile Remove="Models\InspectionModel.cs" />
+    <Compile Remove="Models\InspectionRequestModel.cs" />
+    <Compile Remove="Models\InspectionRiskClassificationModel.cs" />
+    <Compile Remove="Models\InspectionSubTypeModel.cs" />
+    <Compile Remove="Models\InspectionTypeModel.cs" />
+    <Compile Remove="Models\LegalFormModel.cs" />
+    <Compile Remove="Models\LicenseClassModel.cs" />
+    <Compile Remove="Models\LicenseStatusModel.cs" />
+    <Compile Remove="Models\LicenseTypeModel.cs" />
+    <Compile Remove="Models\PublicHolidayModel.cs" />
+    <Compile Remove="Models\SectorModel.cs" />
+    <Compile Remove="Models\UserHolidayModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="5.0.3" />
+  </ItemGroup>
+
+</Project>

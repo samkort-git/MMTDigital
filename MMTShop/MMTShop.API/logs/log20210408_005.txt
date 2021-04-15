@@ -1,0 +1,54 @@
+02:37:03.225 +02:00 [Fatal] Application startup exception
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.ChecklistItemResult' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.WorkflowStage' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.ChecklistItemResult' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Tatweer.UIS.Data.Entities.WorkflowStage' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeAssembly.get_DefinedTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_5(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Action`1 configAction, Assembly[] assemblies)
+   at Tatweer.UIS.API.Startup.ConfigureServices(IServiceCollection services) in D:\ExtendedCode\DevOps\Tatweer.UIS\Tatweer.UIS.API\Startup.cs:line 49
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+System.TypeLoadException: Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Tatweer.UIS.Data.Entities.ChecklistItemResult' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Tatweer.UIS.Data.Entities.InspectionVisit' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Tatweer.UIS.Data.Entities.WorkflowStage' from assembly 'Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+02:37:03.306 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+02:37:03.306 +02:00 [Information] Hosting environment: Development
+02:37:03.307 +02:00 [Information] Content root path: D:\ExtendedCode\DevOps\Tatweer.UIS\Tatweer.UIS.API
+02:37:03.331 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/swagger/index.html - -
+02:37:03.394 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/swagger/index.html - - - 500 - text/html;+charset=utf-8 63.7369ms
+02:37:03.601 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/favicon.ico - -
+02:37:03.610 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/favicon.ico - - - 500 - text/html;+charset=utf-8 9.3325ms
+02:50:11.558 +02:00 [Information] Starting host...

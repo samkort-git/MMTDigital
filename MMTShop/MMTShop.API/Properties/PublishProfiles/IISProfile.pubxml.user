@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPFf6mUw4G0W+UCP/x7QJNwAAAAACAAAAAAADZgAAwAAAABAAAABwKYcFH/Ujurv0IOZIJGO5AAAAAASAAACgAAAAEAAAADY4XUNVMOCla7wWCSQuIJMoAAAAfmgODiZDfocOi2qOTyAVdToH4Y5WNBnCSwbtALFw8nfPKw98snR06hQAAABk3FwwABIBqIaWKDes1nRuk1u9aw==</EncryptedPassword>
+    <_PublishTargetUrl>C:\Publish</_PublishTargetUrl>
+    <History>True|2021-04-08T01:01:26.9425951Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=192.168.20.35%3bInitial Catalog=Tatweer_UIS%3bPersist Security Info=True%3bMultipleActiveResultSets=True%3bUser ID=uis_user%3bPassword=Demonit%40111</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

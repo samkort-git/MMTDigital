@@ -1,0 +1,20 @@
+01:43:43.045 +02:00 [Information] User profile is available. Using 'C:\Users\mahmoud.gaber\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+01:43:48.358 +02:00 [Information] Tatweer.UIS.API started.
+01:43:48.359 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+01:43:48.359 +02:00 [Information] Hosting environment: Development
+01:43:48.359 +02:00 [Information] Content root path: D:\ExtendedCode\DevOps\Tatweer.UIS\Tatweer.UIS.API
+01:43:48.410 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/swagger/index.html - -
+01:43:48.880 +02:00 [Information] HTTP GET /swagger/index.html responded 200 in 455.4838 ms
+01:43:48.900 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/swagger/index.html - - - 200 - text/html;charset=utf-8 494.1175ms
+01:43:49.252 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/swagger/v1/swagger.json - -
+01:43:49.661 +02:00 [Information] HTTP GET /swagger/v1/swagger.json responded 200 in 408.1543 ms
+01:43:49.663 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 410.9664ms
+01:44:07.334 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/api/v1/ChecklistItemEscalationPeriod?page=1&size=10&onlyActive=false - -
+01:44:07.348 +02:00 [Information] Executing endpoint 'Tatweer.UIS.API.Controllers.ChecklistItemEscalationPeriodController.Get (Tatweer.UIS.API)'
+01:44:07.418 +02:00 [Information] Route matched with {action = "Get", controller = "ChecklistItemEscalationPeriod"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32, Int32, Boolean) on controller Tatweer.UIS.API.Controllers.ChecklistItemEscalationPeriodController (Tatweer.UIS.API).
+01:44:07.934 +02:00 [Information] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tatweer.UIS.Data.Entities.CheckListItemEscalationPeriod, Tatweer.UIS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+01:44:08.227 +02:00 [Information] Executed action Tatweer.UIS.API.Controllers.ChecklistItemEscalationPeriodController.Get (Tatweer.UIS.API) in 795.4401ms
+01:44:08.229 +02:00 [Information] Executed endpoint 'Tatweer.UIS.API.Controllers.ChecklistItemEscalationPeriodController.Get (Tatweer.UIS.API)'
+01:44:08.238 +02:00 [Information] HTTP GET /api/v1/ChecklistItemEscalationPeriod?page=1&size=10&onlyActive=false responded 200 in 903.3735 ms
+01:44:08.249 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/api/v1/ChecklistItemEscalationPeriod?page=1&size=10&onlyActive=false - - - 200 2 application/json;+charset=utf-8 915.1513ms
+01:45:24.052 +02:00 [Information] Starting host...

@@ -1,0 +1,15 @@
+01:45:25.914 +02:00 [Information] User profile is available. Using 'C:\Users\mahmoud.gaber\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+01:45:31.662 +02:00 [Information] Tatweer.UIS.API started.
+01:45:31.663 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+01:45:31.663 +02:00 [Information] Hosting environment: Development
+01:45:31.663 +02:00 [Information] Content root path: D:\ExtendedCode\DevOps\Tatweer.UIS\Tatweer.UIS.API
+01:45:31.724 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/swagger/index.html - -
+01:45:32.243 +02:00 [Information] HTTP GET /swagger/index.html responded 200 in 501.3651 ms
+01:45:32.263 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/swagger/index.html - - - 200 - text/html;charset=utf-8 546.9933ms
+01:45:32.480 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/swagger/v1/swagger.json - -
+01:45:32.970 +02:00 [Information] HTTP GET /swagger/v1/swagger.json responded 200 in 489.7099 ms
+01:45:32.973 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 492.5816ms
+02:31:00.953 +02:00 [Information] Starting host...
+02:33:09.098 +02:00 [Information] Starting host...
+02:35:08.646 +02:00 [Information] Starting host...
+02:37:00.270 +02:00 [Information] Starting host...

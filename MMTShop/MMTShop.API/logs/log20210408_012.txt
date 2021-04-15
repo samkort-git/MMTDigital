@@ -1,0 +1,37 @@
+03:23:25.990 +02:00 [Information] User profile is available. Using 'C:\Users\mahmoud.gaber\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+03:23:27.973 +02:00 [Information] Tatweer.UIS.API started.
+03:23:27.973 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+03:23:27.973 +02:00 [Information] Hosting environment: Development
+03:23:27.973 +02:00 [Information] Content root path: D:\ExtendedCode\DevOps\Tatweer.UIS\Tatweer.UIS.API
+03:23:28.005 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/swagger/index.html - -
+03:23:28.254 +02:00 [Information] HTTP GET /swagger/index.html responded 200 in 240.6283 ms
+03:23:28.279 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/swagger/index.html - - - 200 - text/html;charset=utf-8 277.1048ms
+03:23:28.508 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/swagger/v1/swagger.json - -
+03:23:28.737 +02:00 [Information] HTTP GET /swagger/v1/swagger.json responded 200 in 229.1524 ms
+03:23:28.744 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 236.1256ms
+03:23:42.237 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/api/Users?api-version=1.0 - -
+03:23:42.259 +02:00 [Information] Executing endpoint 'Tatweer.UIS.API.Controllers.UsersController.GetUsers (Tatweer.UIS.API)'
+03:23:42.311 +02:00 [Information] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsers() on controller Tatweer.UIS.API.Controllers.UsersController (Tatweer.UIS.API).
+03:23:47.089 +02:00 [Information] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tatweer.UIS.UserManagement.Models.UserModel, Tatweer.UIS.UserManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+03:23:47.350 +02:00 [Information] Executed action Tatweer.UIS.API.Controllers.UsersController.GetUsers (Tatweer.UIS.API) in 5031.8685ms
+03:23:47.351 +02:00 [Information] Executed endpoint 'Tatweer.UIS.API.Controllers.UsersController.GetUsers (Tatweer.UIS.API)'
+03:23:47.356 +02:00 [Information] HTTP GET /api/Users?api-version=1.0 responded 200 in 5118.8355 ms
+03:23:47.370 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/api/Users?api-version=1.0 - - - 200 2 application/json;+charset=utf-8 5132.6895ms
+03:23:58.164 +02:00 [Information] Request starting HTTP/2 GET https://localhost:44309/api/Location?page=1&size=10&onlyActive=false&api-version=1.0 - -
+03:23:58.167 +02:00 [Information] Executing endpoint 'Tatweer.UIS.API.Controllers.LocationController.Get (Tatweer.UIS.API)'
+03:23:58.189 +02:00 [Information] Route matched with {action = "Get", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32, Int32, Boolean) on controller Tatweer.UIS.API.Controllers.LocationController (Tatweer.UIS.API).
+03:23:58.635 +02:00 [Error] Cannot create a DbSet for 'Location' because this type is not included in the model for the context.
+System.InvalidOperationException: Cannot create a DbSet for 'Location' because this type is not included in the model for the context.
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Skip[TSource](IQueryable`1 source, Int32 count)
+   at Tatweer.UIS.Data.Repositories.Base.GenericRepository`1.GetAllAsync(Int32 page, Int32 size, Boolean onlyActive) in D:\ExtendedCode\DevOps\Tatweer.UIS\Tatweer.UIS.Data\Repositories\Base\GenericRepository.cs:line 65
+   at Tatweer.UIS.API.Controllers.LocationController.Get(Int32 page, Int32 size, Boolean onlyActive) in D:\ExtendedCode\DevOps\Tatweer.UIS\Tatweer.UIS.API\Controllers\LocationController.cs:line 34
+03:23:58.809 +02:00 [Information] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+03:23:58.903 +02:00 [Information] Executed action Tatweer.UIS.API.Controllers.LocationController.Get (Tatweer.UIS.API) in 713.58ms
+03:23:58.903 +02:00 [Information] Executed endpoint 'Tatweer.UIS.API.Controllers.LocationController.Get (Tatweer.UIS.API)'
+03:23:58.904 +02:00 [Error] HTTP GET /api/Location?page=1&size=10&onlyActive=false&api-version=1.0 responded 500 in 739.5356 ms
+03:23:58.911 +02:00 [Information] Request finished HTTP/2 GET https://localhost:44309/api/Location?page=1&size=10&onlyActive=false&api-version=1.0 - - - 500 312 application/problem+json;+charset=utf-8 746.8828ms
+03:40:54.205 +02:00 [Information] Starting host...
